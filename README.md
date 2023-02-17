@@ -11,4 +11,4 @@ idea intelij-ultimate crack
   - dán vào file  `idea64.exe.vmoptions` tại `C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\bin` 
   - sửa `-javaagent:/path/to/ja-netfilter.jar=jetbrains` thành `${path của thư mục jetbra}D:\\setup\\jetbrains\\jetbra\\ja-netfilter.jar=jetbrains` 
   - lưu lại file `idea64.exe.vmoptions` 
-- mở intel lên 
+- mở intel lên chọn copy license từ trang down bản `jetbra.zip (220801)` và active 
