@@ -1,0 +1,5 @@
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ${NAME}Repository extends BaseCRUDRepository<${NAME}, Long> {
+}
