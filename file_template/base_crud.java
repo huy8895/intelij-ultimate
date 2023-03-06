@@ -1,3 +1,5 @@
+// ${NAME}Controller
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,9 +15,12 @@ public class ${NAME}Controller extends AbstractBaseCRUDController<${NAME}, ${NAM
     }
 }
 
+//${NAME}Service
 public interface ${NAME}Service extends BaseCRUDService<${NAME}> {
 }
 
+
+//${NAME}ServiceImpl
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -27,5 +32,7 @@ public class ${NAME}ServiceImpl extends AbstractBaseCRUDService<${NAME}, ${NAME}
     }
 }
 
+
+//${NAME}Repository
 public interface ${NAME}Repository extends BaseCRUDRepository<${NAME}, Long> {
 }
