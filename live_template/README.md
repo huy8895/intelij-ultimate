@@ -16,7 +16,7 @@ def params = _2.collect {it + ' = [\" + ' + it + ' + \"]'}.join(', '); return '\
 
 ## Log result of this method
 ```JAVA
-log.info("end $CLASS_NAME$.$METHOD_NAME$() returned: " + Utils.toJson($result$));
+log.info("end $CLASS_NAME$.$METHOD_NAME$() returned: {}", Utils.toJson($result$));
 ```
 `METHOD_NAME` : `methodName()`
 `result`: `variableOfType(methodReturnType())`
