@@ -3,9 +3,7 @@
 
  ## Log method name and its arguments
 ```JAVA
-log.info()
-android.util.Log.d(TAG, $content$);
-
+log.info("start $CLASS_NAME$.$METHOD_NAME$ : {}" $content$);
 ```
  - edit variables: 
 ```groovy
