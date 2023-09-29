@@ -6,6 +6,7 @@
 log.info("end $CLASS_NAME$.$METHOD_NAME$() returned: {}", Utils.toJson($result$));
 ```
 `METHOD_NAME` : `methodName()`
+
 `result`: `variableOfType(methodReturnType())`
 
 ## Log input of this method
