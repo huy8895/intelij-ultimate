@@ -8,7 +8,7 @@ log.info("end $CLASS_NAME$.$METHOD_NAME$() returned: {}", Utils.toJson($result$)
 `METHOD_NAME` : `methodName()`
 `result`: `variableOfType(methodReturnType())`
 
-
+## Log input of this method
 1. Mở IntelliJ và điều hướng đến **File > Settings > Editor > Live Templates**.
 2. Tìm đến template `logm` của bạn.
 3. Thay đổi expression của biến `content` thành: 
